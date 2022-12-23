@@ -26,6 +26,8 @@ for a in artists:
 df_all =pd.merge(df_all,df_genre,on="ALink")
 df_all.to_csv("data/merged_cleaned_data.csv",index=False)
 sel_genres = ["Romântico","Country","Gospel/Religioso","Hardcore","Heavy Metal","Rap"]
+# sel_genres = ["Rap"]
+
 
 df_genre = df_all.loc[df_all.genre.isin(sel_genres)]
 len_before= len(df_genre)
