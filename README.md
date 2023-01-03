@@ -1,5 +1,18 @@
 # AdvancedInformationRetrieval_WS22
-data : https://www.kaggle.com/datasets/neisse/scrapped-lyrics-from-6-genres
-first execute create_data 
-then explore .ipynb file
-might need some adjustments to work
+Dataset
+```
+https://www.kaggle.com/datasets/neisse/scrapped-lyrics-from-6-genres
+```
+First Steps
+```
+1. create "data" folder and put datasets inside
+2. execute create_data 
+```
+Findings
+```
+->  explore data_explorer.ipynb file
+```
+Additionally
+```
+-> install needed libraries
+```
